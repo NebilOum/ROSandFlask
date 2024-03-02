@@ -1,4 +1,11 @@
 {% extends 'index.html' %}
 {% block heading %}Buttons{% endblock %}
 {% block content %}
+<form method="post" action="/buttons">
+<input type="submit" name="right" value="Turn Right">
+<input type="submit" name="left" value="Turn Left">
+<input type="submit" name="forward" value="Go Forward">
+<input type="submit" name="backward" value="Go Backwards">
+<input type="submit" name="stop" value="STOP">
+</form>
 {% endblock %}
