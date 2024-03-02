@@ -5,6 +5,11 @@
     </head>
 
     <body>
+        <a href="{{ url_for('buttons') }}">Button Control</a>
+        <a href="{{ url_for('signal') }}">Control with Hand Signals</a>
+        <a href="{{ url_for('path') }}">Generate Path</a>
         <h1>Simple ROS interface</h1>
+        <h2>{% block heading %}{% endblock %}</h2>
+        {%block content%}{% endblock%}
     </body>
 </html>

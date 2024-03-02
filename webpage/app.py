@@ -30,6 +30,19 @@ class FlaskPublisher(Node):
 def index():
     return render_template('index.html')
 
+@app.route('/buttons')
+def buttons():
+    return render_template('buttons.html')
+
+@app.route('/signal')
+def signal():
+    return render_template('signal.html')
+
+@app.route('/path')
+def path():
+    return render_template('path.html')
+
+
 def main(args=None):
     rclpy.init(args=args)
 
