@@ -1,5 +1,6 @@
 import flask
 from flask import Flask, render_template, request, jsonify, Response
+from roslibpy import Header, Message, Ros, Time, Topic
 import numpy as np
 import mediapipe as mp
 import cv2 as cv
@@ -11,6 +12,11 @@ from rclpy.node import Node
 from geometry_msgs.msg import Twist
 
 app = Flask(__name__)
+
+
+mp_drawing = mp.solutions.drawing_utils
+mp_holistic = mp.solutons.holistic
+mp_pose = mp.solutions.pose
 
 class FlaskPublisher(Node):
 
@@ -24,7 +30,64 @@ class FlaskPublisher(Node):
     def timer_callback(self):
         self.publisher_.publish(self.msg)
 
+def topic_pubsub():
+    context = dict(wait=threading.Event(),counter=0)
 
+    ros = Ros("127.0.0.1",9090) ##local host
+    ros.run()
+
+    listener = Topic(ros, "/webChatter", "std_msgs/String")
+    publisher =Topic(ros, "/webChater", "std_msgs/String")
+
+    def receive_message(message):
+        context["counter"] += 1
+        assert message["data"] == "hello world","Unexpected message content"
+
+        if context["counter"] ==3:
+            listener.unsubscrive()
+            context["wait"].set()
+    def start_sending():
+        while True:
+            if context["counter"] >= 3:
+                break
+            publisher.publish(Message({"data": "hello world"}))
+            time.sleep(0.1)
+        publisher.unadvertise()
+
+    def start_receiving():
+        listener.subscribe(receive_message)
+
+    t1 = threading.Thread(target=start_receiving)
+    t2 = threading.Thread(target=start_sending)
+
+    t1.start()
+    t2.start()
+
+    if not context["wait"].wait(10):
+        raise Exception
+
+    t1.join()
+    t2.join()
+
+    assert context["counter"] >= 3, "Expected at least 3 messages but got " + str(context["counter"])
+    ros.close()
+def detect_pose():
+    camera= cv.VideoCapture(0)
+    with mp_holistic.Holistic(min_detection_confidence= 0.5, min_tracking_condifence=0.5) as holistic:
+        while camera.isOpened():
+            ret, frame = cap.read()
+
+            image = cv.cvtColor(frame, cv.COLOR_BGR2RGB)
+            results = holistic.process(image)
+            image =cv.cbtColor(frame, cv.COLOR_BGR2RGB)
+
+            mp_drawing.draw_landmarks(frame,results.pose_landmarks, mp_holistic.POSE_CONNECTIONS)
+            cv.imshow('Raw Webcam Feed', image)
+
+            if(cv.waitKey(10)) & (0xFF == ord('q')):
+                break
+    camera.release()
+    cv.destroyAllWindows()
 
 @app.route('/')
 def index():
@@ -54,9 +117,16 @@ def buttons():
         flask_publisher.publisher_.publish(flask_publisher.msg)
     return render_template('buttons.html')
 
+
+
+
 @app.route('/signal')
 def signal():
     return render_template('signal.html')
+
+@app.route("/vidoeo_feed")
+def video_feed():
+    return Response(detect_pose(),miimetype = 'multipart/x-mixed-replace; boundary=frame')
 
 @app.route('/path')
 def path():
