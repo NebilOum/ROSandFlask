@@ -1,0 +1,515 @@
+[0.079s] Invoking command in '/home/adamn/Hackathon/ROSandFlask/ros2_ws/build/turtlesim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/adamn/ros2_humble/install/rqt_bag_plugins:/home/adamn/ros2_humble/install/rqt_bag:/home/adamn/ros2_humble/install/ros2bag:/home/adamn/ros2_humble/install/tracetools_test:/home/adamn/ros2_humble/install/tracetools_launch:/home/adamn/ros2_humble/install/topic_monitor:/home/adamn/ros2_humble/install/tf2_tools:/home/adamn/ros2_humble/install/examples_tf2_py:/home/adamn/ros2_humble/install/tf2_ros_py:/home/adamn/ros2_humble/install/sros2:/home/adamn/ros2_humble/install/rqt_topic:/home/adamn/ros2_humble/install/rqt_srv:/home/adamn/ros2_humble/install/rqt_shell:/home/adamn/ros2_humble/install/rqt_service_caller:/home/adamn/ros2_humble/install/rqt_reconfigure:/home/adamn/ros2_humble/install/rqt_py_console:/home/adamn/ros2_humble/install/rqt_publisher:/home/adamn/ros2_humble/install/rqt_plot:/home/adamn/ros2_humble/install/rqt_action:/home/adamn/ros2_humble/install/rqt_msg:/home/adamn/ros2_humble/install/rqt_console:/home/adamn/ros2_humble/install/rqt:/home/adamn/ros2_humble/install/rqt_graph:/home/adamn/ros2_humble/install/rqt_gui_py:/home/adamn/ros2_humble/install/rqt_gui:/home/adamn/ros2_humble/install/ros2trace:/home/adamn/ros2_humble/install/ros2topic:/home/adamn/ros2_humble/install/ros2test:/home/adamn/ros2_humble/install/ros2component:/home/adamn/ros2_humble/install/ros2param:/home/adamn/ros2_humble/install/ros2lifecycle:/home/adamn/ros2_humble/install/ros2service:/home/adamn/ros2_humble/install/ros2run:/home/adamn/ros2_humble/install/ros2launch:/home/adamn/ros2_humble/install/ros2pkg:/home/adamn/ros2_humble/install/ros2node:/home/adamn/ros2_humble/install/ros2multicast:/home/adamn/ros2_humble/install/ros2interface:/home/adamn/ros2_humble/install/ros2doctor:/home/adamn/ros2_humble/install/ros2action:/home/adamn/ros2_humble/install/ros2cli:/home/adamn/ros2_humble/install/quality_of_service_demo_py:/home/adamn/ros2_humble/install/lifecycle_py:/home/adamn/ros2_humble/install/launch_testing_ros:/home/adamn/ros2_humble/install/launch_ros:/home/adamn/ros2_humble/install/examples_rclpy_pointcloud_publisher:/home/adamn/ros2_humble/install/examples_rclpy_minimal_subscriber:/home/adamn/ros2_humble/install/examples_rclpy_minimal_service:/home/adamn/ros2_humble/install/examples_rclpy_minimal_publisher:/home/adamn/ros2_humble/install/examples_rclpy_minimal_client:/home/adamn/ros2_humble/install/examples_rclpy_minimal_action_server:/home/adamn/ros2_humble/install/examples_rclpy_minimal_action_client:/home/adamn/ros2_humble/install/examples_rclpy_guard_conditions:/home/adamn/ros2_humble/install/examples_rclpy_executors:/home/adamn/ros2_humble/install/demo_nodes_py:/home/adamn/ros2_humble/install/action_tutorials_py:/home/adamn/ros2_humble/install/ament_uncrustify:/home/adamn/ros2_humble/install/tracetools_trace:/home/adamn/ros2_humble/install/tracetools_read:/home/adamn/ros2_humble/install/test_tracetools_launch:/home/adamn/ros2_humble/install/test_launch_ros:/home/adamn/ros2_humble/install/sensor_msgs_py:/home/adamn/ros2_humble/install/rpyutils:/home/adamn/ros2_humble/install/rosidl_runtime_py:/home/adamn/ros2_humble/install/rosidl_cli:/home/adamn/ros2_humble/install/launch_pytest:/home/adamn/ros2_humble/install/launch_testing:/home/adamn/ros2_humble/install/launch_yaml:/home/adamn/ros2_humble/install/launch_xml:/home/adamn/ros2_humble/install/launch:/home/adamn/ros2_humble/install/osrf_pycommon:/home/adamn/ros2_humble/install/launch_testing_examples:/home/adamn/ros2_humble/install/domain_coordinator:/home/adamn/ros2_humble/install/ament_xmllint:/home/adamn/ros2_humble/install/ament_pyflakes:/home/adamn/ros2_humble/install/ament_pycodestyle:/home/adamn/ros2_humble/install/ament_pep257:/home/adamn/ros2_humble/install/ament_pclint:/home/adamn/ros2_humble/install/ament_package:/home/adamn/ros2_humble/install/ament_mypy:/home/adamn/ros2_humble/install/ament_lint_cmake:/home/adamn/ros2_humble/install/ament_flake8:/home/adamn/ros2_humble/install/ament_copyright:/home/adamn/ros2_humble/install/ament_lint:/home/adamn/ros2_humble/install/ament_index_python:/home/adamn/ros2_humble/install/ament_cpplint:/home/adamn/ros2_humble/install/ament_cppcheck:/home/adamn/ros2_humble/install/ament_clang_tidy:/home/adamn/ros2_humble/install/ament_clang_format /usr/bin/cmake /home/adamn/Hackathon/ROSandFlask/ros2_ws/src/ros_tutorials/turtlesim -DCMAKE_INSTALL_PREFIX=/home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim
+[0.260s] -- The C compiler identification is GNU 11.4.0
+[0.906s] -- The CXX compiler identification is GNU 11.4.0
+[1.410s] -- Detecting C compiler ABI info
+[1.592s] -- Detecting C compiler ABI info - done
+[1.596s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.596s] -- Detecting C compile features
+[1.597s] -- Detecting C compile features - done
+[1.598s] -- Detecting CXX compiler ABI info
+[1.783s] -- Detecting CXX compiler ABI info - done
+[1.789s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.789s] -- Detecting CXX compile features
+[1.789s] -- Detecting CXX compile features - done
+[1.798s] -- Found ament_cmake: 1.3.8 (/home/adamn/ros2_humble/install/ament_cmake/share/ament_cmake/cmake)
+[2.215s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.484s] -- Found ament_index_cpp: 1.4.0 (/home/adamn/ros2_humble/install/ament_index_cpp/share/ament_index_cpp/cmake)
+[2.489s] -- Found geometry_msgs: 4.2.3 (/home/adamn/ros2_humble/install/geometry_msgs/share/geometry_msgs/cmake)
+[2.717s] -- Found rosidl_generator_c: 3.1.5 (/home/adamn/ros2_humble/install/rosidl_generator_c/share/rosidl_generator_c/cmake)
+[2.731s] -- Found rosidl_adapter: 3.1.5 (/home/adamn/ros2_humble/install/rosidl_adapter/share/rosidl_adapter/cmake)
+[2.747s] -- Found rosidl_generator_cpp: 3.1.5 (/home/adamn/ros2_humble/install/rosidl_generator_cpp/share/rosidl_generator_cpp/cmake)
+[2.784s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_introspection_c;rosidl_typesupport_fastrtps_c
+[2.831s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_introspection_cpp;rosidl_typesupport_fastrtps_cpp
+[3.091s] -- Found rclcpp: 16.0.8 (/home/adamn/ros2_humble/install/rclcpp/share/rclcpp/cmake)
+[3.171s] -- Found rmw_implementation_cmake: 6.1.1 (/home/adamn/ros2_humble/install/rmw_implementation_cmake/share/rmw_implementation_cmake/cmake)
+[3.195s] -- Found rmw_fastrtps_cpp: 6.2.6 (/home/adamn/ros2_humble/install/rmw_fastrtps_cpp/share/rmw_fastrtps_cpp/cmake)
+[5.048s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[6.794s] -- Found FastRTPS: /home/adamn/ros2_humble/install/fastrtps/include  
+[9.900s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[9.926s] -- Looking for pthread.h
+[10.121s] -- Looking for pthread.h - found
+[10.121s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[10.318s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[10.319s] -- Found Threads: TRUE  
+[10.439s] -- Found rclcpp_action: 16.0.8 (/home/adamn/ros2_humble/install/rclcpp_action/share/rclcpp_action/cmake)
+[10.528s] -- Found rosidl_default_generators: 1.2.0 (/home/adamn/ros2_humble/install/rosidl_default_generators/share/rosidl_default_generators/cmake)
+[10.606s] -- Found std_srvs: 4.2.3 (/home/adamn/ros2_humble/install/std_srvs/share/std_srvs/cmake)
+[11.283s] -- Found ament_cmake_ros: 0.10.0 (/home/adamn/ros2_humble/install/ament_cmake_ros/share/ament_cmake_ros/cmake)
+[12.070s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_introspection_c;rosidl_typesupport_fastrtps_c
+[12.385s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_introspection_cpp;rosidl_typesupport_fastrtps_cpp
+[12.624s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[12.642s] -- Found python_cmake_module: 0.10.0 (/home/adamn/ros2_humble/install/python_cmake_module/share/python_cmake_module/cmake)
+[13.201s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[13.201s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[13.201s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[13.201s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[13.259s] -- Found PythonExtra: .so  
+[13.915s] -- Configuring done
+[13.975s] -- Generating done
+[13.977s] -- Build files have been written to: /home/adamn/Hackathon/ROSandFlask/ros2_ws/build/turtlesim
+[13.988s] Invoked command in '/home/adamn/Hackathon/ROSandFlask/ros2_ws/build/turtlesim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/adamn/ros2_humble/install/rqt_bag_plugins:/home/adamn/ros2_humble/install/rqt_bag:/home/adamn/ros2_humble/install/ros2bag:/home/adamn/ros2_humble/install/tracetools_test:/home/adamn/ros2_humble/install/tracetools_launch:/home/adamn/ros2_humble/install/topic_monitor:/home/adamn/ros2_humble/install/tf2_tools:/home/adamn/ros2_humble/install/examples_tf2_py:/home/adamn/ros2_humble/install/tf2_ros_py:/home/adamn/ros2_humble/install/sros2:/home/adamn/ros2_humble/install/rqt_topic:/home/adamn/ros2_humble/install/rqt_srv:/home/adamn/ros2_humble/install/rqt_shell:/home/adamn/ros2_humble/install/rqt_service_caller:/home/adamn/ros2_humble/install/rqt_reconfigure:/home/adamn/ros2_humble/install/rqt_py_console:/home/adamn/ros2_humble/install/rqt_publisher:/home/adamn/ros2_humble/install/rqt_plot:/home/adamn/ros2_humble/install/rqt_action:/home/adamn/ros2_humble/install/rqt_msg:/home/adamn/ros2_humble/install/rqt_console:/home/adamn/ros2_humble/install/rqt:/home/adamn/ros2_humble/install/rqt_graph:/home/adamn/ros2_humble/install/rqt_gui_py:/home/adamn/ros2_humble/install/rqt_gui:/home/adamn/ros2_humble/install/ros2trace:/home/adamn/ros2_humble/install/ros2topic:/home/adamn/ros2_humble/install/ros2test:/home/adamn/ros2_humble/install/ros2component:/home/adamn/ros2_humble/install/ros2param:/home/adamn/ros2_humble/install/ros2lifecycle:/home/adamn/ros2_humble/install/ros2service:/home/adamn/ros2_humble/install/ros2run:/home/adamn/ros2_humble/install/ros2launch:/home/adamn/ros2_humble/install/ros2pkg:/home/adamn/ros2_humble/install/ros2node:/home/adamn/ros2_humble/install/ros2multicast:/home/adamn/ros2_humble/install/ros2interface:/home/adamn/ros2_humble/install/ros2doctor:/home/adamn/ros2_humble/install/ros2action:/home/adamn/ros2_humble/install/ros2cli:/home/adamn/ros2_humble/install/quality_of_service_demo_py:/home/adamn/ros2_humble/install/lifecycle_py:/home/adamn/ros2_humble/install/launch_testing_ros:/home/adamn/ros2_humble/install/launch_ros:/home/adamn/ros2_humble/install/examples_rclpy_pointcloud_publisher:/home/adamn/ros2_humble/install/examples_rclpy_minimal_subscriber:/home/adamn/ros2_humble/install/examples_rclpy_minimal_service:/home/adamn/ros2_humble/install/examples_rclpy_minimal_publisher:/home/adamn/ros2_humble/install/examples_rclpy_minimal_client:/home/adamn/ros2_humble/install/examples_rclpy_minimal_action_server:/home/adamn/ros2_humble/install/examples_rclpy_minimal_action_client:/home/adamn/ros2_humble/install/examples_rclpy_guard_conditions:/home/adamn/ros2_humble/install/examples_rclpy_executors:/home/adamn/ros2_humble/install/demo_nodes_py:/home/adamn/ros2_humble/install/action_tutorials_py:/home/adamn/ros2_humble/install/ament_uncrustify:/home/adamn/ros2_humble/install/tracetools_trace:/home/adamn/ros2_humble/install/tracetools_read:/home/adamn/ros2_humble/install/test_tracetools_launch:/home/adamn/ros2_humble/install/test_launch_ros:/home/adamn/ros2_humble/install/sensor_msgs_py:/home/adamn/ros2_humble/install/rpyutils:/home/adamn/ros2_humble/install/rosidl_runtime_py:/home/adamn/ros2_humble/install/rosidl_cli:/home/adamn/ros2_humble/install/launch_pytest:/home/adamn/ros2_humble/install/launch_testing:/home/adamn/ros2_humble/install/launch_yaml:/home/adamn/ros2_humble/install/launch_xml:/home/adamn/ros2_humble/install/launch:/home/adamn/ros2_humble/install/osrf_pycommon:/home/adamn/ros2_humble/install/launch_testing_examples:/home/adamn/ros2_humble/install/domain_coordinator:/home/adamn/ros2_humble/install/ament_xmllint:/home/adamn/ros2_humble/install/ament_pyflakes:/home/adamn/ros2_humble/install/ament_pycodestyle:/home/adamn/ros2_humble/install/ament_pep257:/home/adamn/ros2_humble/install/ament_pclint:/home/adamn/ros2_humble/install/ament_package:/home/adamn/ros2_humble/install/ament_mypy:/home/adamn/ros2_humble/install/ament_lint_cmake:/home/adamn/ros2_humble/install/ament_flake8:/home/adamn/ros2_humble/install/ament_copyright:/home/adamn/ros2_humble/install/ament_lint:/home/adamn/ros2_humble/install/ament_index_python:/home/adamn/ros2_humble/install/ament_cpplint:/home/adamn/ros2_humble/install/ament_cppcheck:/home/adamn/ros2_humble/install/ament_clang_tidy:/home/adamn/ros2_humble/install/ament_clang_format /usr/bin/cmake /home/adamn/Hackathon/ROSandFlask/ros2_ws/src/ros_tutorials/turtlesim -DCMAKE_INSTALL_PREFIX=/home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim
+[13.990s] Invoking command in '/home/adamn/Hackathon/ROSandFlask/ros2_ws/build/turtlesim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/adamn/ros2_humble/install/rqt_bag_plugins:/home/adamn/ros2_humble/install/rqt_bag:/home/adamn/ros2_humble/install/ros2bag:/home/adamn/ros2_humble/install/tracetools_test:/home/adamn/ros2_humble/install/tracetools_launch:/home/adamn/ros2_humble/install/topic_monitor:/home/adamn/ros2_humble/install/tf2_tools:/home/adamn/ros2_humble/install/examples_tf2_py:/home/adamn/ros2_humble/install/tf2_ros_py:/home/adamn/ros2_humble/install/sros2:/home/adamn/ros2_humble/install/rqt_topic:/home/adamn/ros2_humble/install/rqt_srv:/home/adamn/ros2_humble/install/rqt_shell:/home/adamn/ros2_humble/install/rqt_service_caller:/home/adamn/ros2_humble/install/rqt_reconfigure:/home/adamn/ros2_humble/install/rqt_py_console:/home/adamn/ros2_humble/install/rqt_publisher:/home/adamn/ros2_humble/install/rqt_plot:/home/adamn/ros2_humble/install/rqt_action:/home/adamn/ros2_humble/install/rqt_msg:/home/adamn/ros2_humble/install/rqt_console:/home/adamn/ros2_humble/install/rqt:/home/adamn/ros2_humble/install/rqt_graph:/home/adamn/ros2_humble/install/rqt_gui_py:/home/adamn/ros2_humble/install/rqt_gui:/home/adamn/ros2_humble/install/ros2trace:/home/adamn/ros2_humble/install/ros2topic:/home/adamn/ros2_humble/install/ros2test:/home/adamn/ros2_humble/install/ros2component:/home/adamn/ros2_humble/install/ros2param:/home/adamn/ros2_humble/install/ros2lifecycle:/home/adamn/ros2_humble/install/ros2service:/home/adamn/ros2_humble/install/ros2run:/home/adamn/ros2_humble/install/ros2launch:/home/adamn/ros2_humble/install/ros2pkg:/home/adamn/ros2_humble/install/ros2node:/home/adamn/ros2_humble/install/ros2multicast:/home/adamn/ros2_humble/install/ros2interface:/home/adamn/ros2_humble/install/ros2doctor:/home/adamn/ros2_humble/install/ros2action:/home/adamn/ros2_humble/install/ros2cli:/home/adamn/ros2_humble/install/quality_of_service_demo_py:/home/adamn/ros2_humble/install/lifecycle_py:/home/adamn/ros2_humble/install/launch_testing_ros:/home/adamn/ros2_humble/install/launch_ros:/home/adamn/ros2_humble/install/examples_rclpy_pointcloud_publisher:/home/adamn/ros2_humble/install/examples_rclpy_minimal_subscriber:/home/adamn/ros2_humble/install/examples_rclpy_minimal_service:/home/adamn/ros2_humble/install/examples_rclpy_minimal_publisher:/home/adamn/ros2_humble/install/examples_rclpy_minimal_client:/home/adamn/ros2_humble/install/examples_rclpy_minimal_action_server:/home/adamn/ros2_humble/install/examples_rclpy_minimal_action_client:/home/adamn/ros2_humble/install/examples_rclpy_guard_conditions:/home/adamn/ros2_humble/install/examples_rclpy_executors:/home/adamn/ros2_humble/install/demo_nodes_py:/home/adamn/ros2_humble/install/action_tutorials_py:/home/adamn/ros2_humble/install/ament_uncrustify:/home/adamn/ros2_humble/install/tracetools_trace:/home/adamn/ros2_humble/install/tracetools_read:/home/adamn/ros2_humble/install/test_tracetools_launch:/home/adamn/ros2_humble/install/test_launch_ros:/home/adamn/ros2_humble/install/sensor_msgs_py:/home/adamn/ros2_humble/install/rpyutils:/home/adamn/ros2_humble/install/rosidl_runtime_py:/home/adamn/ros2_humble/install/rosidl_cli:/home/adamn/ros2_humble/install/launch_pytest:/home/adamn/ros2_humble/install/launch_testing:/home/adamn/ros2_humble/install/launch_yaml:/home/adamn/ros2_humble/install/launch_xml:/home/adamn/ros2_humble/install/launch:/home/adamn/ros2_humble/install/osrf_pycommon:/home/adamn/ros2_humble/install/launch_testing_examples:/home/adamn/ros2_humble/install/domain_coordinator:/home/adamn/ros2_humble/install/ament_xmllint:/home/adamn/ros2_humble/install/ament_pyflakes:/home/adamn/ros2_humble/install/ament_pycodestyle:/home/adamn/ros2_humble/install/ament_pep257:/home/adamn/ros2_humble/install/ament_pclint:/home/adamn/ros2_humble/install/ament_package:/home/adamn/ros2_humble/install/ament_mypy:/home/adamn/ros2_humble/install/ament_lint_cmake:/home/adamn/ros2_humble/install/ament_flake8:/home/adamn/ros2_humble/install/ament_copyright:/home/adamn/ros2_humble/install/ament_lint:/home/adamn/ros2_humble/install/ament_index_python:/home/adamn/ros2_humble/install/ament_cpplint:/home/adamn/ros2_humble/install/ament_cppcheck:/home/adamn/ros2_humble/install/ament_clang_tidy:/home/adamn/ros2_humble/install/ament_clang_format /usr/bin/cmake --build /home/adamn/Hackathon/ROSandFlask/ros2_ws/build/turtlesim -- -j8 -l8
+[14.041s] [  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[14.056s] [  2%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[14.067s] [  2%] Built target ament_cmake_python_copy_turtlesim
+[14.507s] running egg_info
+[14.508s] creating turtlesim.egg-info
+[14.508s] writing turtlesim.egg-info/PKG-INFO
+[14.508s] writing dependency_links to turtlesim.egg-info/dependency_links.txt
+[14.508s] writing top-level names to turtlesim.egg-info/top_level.txt
+[14.508s] writing manifest file 'turtlesim.egg-info/SOURCES.txt'
+[14.510s] reading manifest file 'turtlesim.egg-info/SOURCES.txt'
+[14.510s] writing manifest file 'turtlesim.egg-info/SOURCES.txt'
+[14.536s] [  2%] Built target ament_cmake_python_build_turtlesim_egg
+[15.232s] [  2%] Built target turtlesim__cpp
+[15.249s] [  3%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[15.250s] [  4%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[15.250s] [  5%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[15.262s] [  6%] [32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_c.dir/rosidl_generator_c/turtlesim/srv/detail/kill__functions.c.o[0m
+[15.263s] [  7%] [32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_c.dir/rosidl_generator_c/turtlesim/msg/detail/color__functions.c.o[0m
+[15.263s] [  8%] [32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_c.dir/rosidl_generator_c/turtlesim/action/detail/rotate_absolute__functions.c.o[0m
+[15.264s] [  9%] [32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_c.dir/rosidl_generator_c/turtlesim/srv/detail/set_pen__functions.c.o[0m
+[15.266s] [ 10%] [32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_c.dir/rosidl_generator_c/turtlesim/msg/detail/pose__functions.c.o[0m
+[15.345s] [ 11%] [32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_c.dir/rosidl_generator_c/turtlesim/srv/detail/spawn__functions.c.o[0m
+[15.351s] [ 12%] [32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_c.dir/rosidl_generator_c/turtlesim/srv/detail/teleport_absolute__functions.c.o[0m
+[15.356s] [ 13%] [32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_c.dir/rosidl_generator_c/turtlesim/srv/detail/teleport_relative__functions.c.o[0m
+[15.435s] [ 14%] [32m[1mLinking C shared library libturtlesim__rosidl_generator_c.so[0m
+[15.596s] [ 14%] Built target turtlesim__rosidl_generator_c
+[15.614s] [ 15%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[15.618s] [ 17%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[15.618s] [ 17%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[16.307s] [ 19%] [32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtlesim/msg/color__type_support.cpp.o[0m
+[16.307s] [ 19%] [32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtlesim/msg/pose__type_support.cpp.o[0m
+[16.308s] [ 20%] [32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtlesim/action/rotate_absolute__type_support.cpp.o[0m
+[16.671s] [ 21%] [32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtlesim/srv/kill__type_support.cpp.o[0m
+[16.685s] [ 22%] [32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtlesim/srv/set_pen__type_support.cpp.o[0m
+[16.739s] [ 23%] [32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtlesim/action/detail/rotate_absolute__type_support.cpp.o[0m
+[16.757s] [ 24%] [32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtlesim/action/rotate_absolute__type_support.cpp.o[0m
+[16.874s] [ 25%] [32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtlesim/msg/color__type_support.cpp.o[0m
+[16.946s] [ 26%] [32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtlesim/msg/pose__type_support.cpp.o[0m
+[16.959s] [ 27%] [32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtlesim/msg/detail/color__type_support.cpp.o[0m
+[16.973s] [ 28%] [32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtlesim/action/detail/dds_fastrtps/rotate_absolute__type_support.cpp.o[0m
+[17.009s] [ 29%] [32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtlesim/srv/kill__type_support.cpp.o[0m
+[17.047s] [ 30%] [32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtlesim/srv/spawn__type_support.cpp.o[0m
+[17.065s] [ 31%] [32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtlesim/srv/teleport_absolute__type_support.cpp.o[0m
+[17.070s] [ 32%] [32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtlesim/srv/set_pen__type_support.cpp.o[0m
+[17.137s] [ 33%] [32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtlesim/srv/spawn__type_support.cpp.o[0m
+[17.210s] [ 34%] [32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtlesim/srv/teleport_absolute__type_support.cpp.o[0m
+[17.274s] [ 35%] [32mBuilding C object CMakeFiles/turtlesim__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtlesim/action/detail/rotate_absolute__type_support.c.o[0m
+[17.291s] [ 36%] [32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtlesim/srv/teleport_relative__type_support.cpp.o[0m
+[17.354s] [ 37%] [32m[1mLinking CXX shared library libturtlesim__rosidl_typesupport_c.so[0m
+[17.366s] [ 38%] [32mBuilding C object CMakeFiles/turtlesim__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtlesim/msg/detail/color__type_support.c.o[0m
+[17.383s] [ 39%] [32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtlesim/action/detail/rotate_absolute__type_support_c.cpp.o[0m
+[17.422s] [ 40%] [32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtlesim/msg/detail/color__type_support_c.cpp.o[0m
+[17.430s] [ 41%] [32mBuilding C object CMakeFiles/turtlesim__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtlesim/msg/detail/pose__type_support.c.o[0m
+[17.452s] [ 42%] [32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtlesim/srv/teleport_relative__type_support.cpp.o[0m
+[17.489s] [ 43%] [32mBuilding C object CMakeFiles/turtlesim__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtlesim/srv/detail/kill__type_support.c.o[0m
+[17.492s] [ 44%] [32mBuilding C object CMakeFiles/turtlesim__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtlesim/srv/detail/set_pen__type_support.c.o[0m
+[17.560s] [ 45%] [32mBuilding C object CMakeFiles/turtlesim__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtlesim/srv/detail/spawn__type_support.c.o[0m
+[17.563s] [ 46%] [32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtlesim/msg/detail/pose__type_support.cpp.o[0m
+[17.563s] [ 47%] [32mBuilding C object CMakeFiles/turtlesim__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtlesim/srv/detail/teleport_absolute__type_support.c.o[0m
+[17.603s] [ 47%] Built target turtlesim__rosidl_typesupport_c
+[17.624s] [ 48%] [32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtlesim/srv/detail/kill__type_support.cpp.o[0m
+[17.626s] [ 50%] [32mBuilding C object CMakeFiles/turtlesim__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtlesim/srv/detail/teleport_relative__type_support.c.o[0m
+[17.626s] [ 50%] [32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtlesim/srv/detail/set_pen__type_support.cpp.o[0m
+[17.693s] [ 51%] [32m[1mLinking C shared library libturtlesim__rosidl_typesupport_introspection_c.so[0m
+[17.747s] [ 52%] [32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtlesim/msg/detail/dds_fastrtps/color__type_support.cpp.o[0m
+[17.830s] [ 53%] [32m[1mLinking CXX shared library libturtlesim__rosidl_typesupport_cpp.so[0m
+[17.887s] [ 54%] [32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtlesim/msg/detail/pose__type_support_c.cpp.o[0m
+[17.935s] [ 55%] [32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtlesim/srv/detail/kill__type_support_c.cpp.o[0m
+[17.944s] [ 55%] Built target turtlesim__rosidl_typesupport_introspection_c
+[17.972s] [ 56%] [32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtlesim/srv/detail/set_pen__type_support_c.cpp.o[0m
+[18.086s] [ 57%] [32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtlesim/srv/detail/spawn__type_support.cpp.o[0m
+[18.097s] [ 57%] Built target turtlesim__rosidl_typesupport_cpp
+[18.133s] [ 58%] [34m[1mGenerating include/turtlesim/moc_turtle_frame.cpp[0m
+[18.166s] [ 59%] [32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtlesim/srv/detail/teleport_absolute__type_support.cpp.o[0m
+[18.209s] [ 60%] [32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtlesim/srv/detail/teleport_relative__type_support.cpp.o[0m
+[18.275s] [ 61%] [32mBuilding CXX object CMakeFiles/turtlesim_node.dir/src/turtlesim.cpp.o[0m
+[18.309s] [ 62%] [32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtlesim/msg/detail/dds_fastrtps/pose__type_support.cpp.o[0m
+[18.346s] [ 63%] [32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtlesim/srv/detail/spawn__type_support_c.cpp.o[0m
+[18.416s] [ 64%] [32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtlesim/srv/detail/teleport_absolute__type_support_c.cpp.o[0m
+[18.483s] [ 65%] [32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtlesim/srv/detail/teleport_relative__type_support_c.cpp.o[0m
+[18.607s] [ 66%] [32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtlesim/srv/detail/dds_fastrtps/kill__type_support.cpp.o[0m
+[18.675s] [ 67%] [32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtlesim/srv/detail/dds_fastrtps/set_pen__type_support.cpp.o[0m
+[18.722s] [ 68%] [32m[1mLinking CXX shared library libturtlesim__rosidl_typesupport_introspection_cpp.so[0m
+[18.830s] [ 69%] [32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtlesim/srv/detail/dds_fastrtps/spawn__type_support.cpp.o[0m
+[18.844s] [ 70%] [32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtlesim/srv/detail/dds_fastrtps/teleport_absolute__type_support.cpp.o[0m
+[18.879s] [ 71%] [32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtlesim/srv/detail/dds_fastrtps/teleport_relative__type_support.cpp.o[0m
+[19.008s] [ 72%] [32m[1mLinking CXX shared library libturtlesim__rosidl_typesupport_fastrtps_c.so[0m
+[19.016s] [ 72%] Built target turtlesim__rosidl_typesupport_introspection_cpp
+[19.083s] [ 73%] [32mBuilding CXX object CMakeFiles/turtle_teleop_key.dir/tutorials/teleop_turtle_key.cpp.o[0m
+[19.230s] [ 74%] [32mBuilding CXX object CMakeFiles/draw_square.dir/tutorials/draw_square.cpp.o[0m
+[19.307s] [ 75%] [32mBuilding CXX object CMakeFiles/mimic.dir/tutorials/mimic.cpp.o[0m
+[19.326s] [ 75%] Built target turtlesim__rosidl_typesupport_fastrtps_c
+[19.348s] [ 76%] [32mBuilding CXX object CMakeFiles/turtlesim_node.dir/src/turtle.cpp.o[0m
+[19.414s] [ 77%] [32mBuilding CXX object CMakeFiles/turtlesim_node.dir/src/turtle_frame.cpp.o[0m
+[19.425s] [ 78%] [32mBuilding CXX object CMakeFiles/turtlesim_node.dir/include/turtlesim/moc_turtle_frame.cpp.o[0m
+[19.435s] [ 79%] [32m[1mLinking CXX shared library libturtlesim__rosidl_typesupport_fastrtps_cpp.so[0m
+[19.771s] [ 79%] Built target turtlesim__rosidl_typesupport_fastrtps_cpp
+[19.827s] [ 79%] Built target turtlesim
+[19.902s] [ 80%] [34m[1mGenerating Python code for ROS interfaces[0m
+[23.635s] [ 80%] Built target turtlesim__py
+[23.690s] [ 81%] [32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_py.dir/rosidl_generator_py/turtlesim/action/_rotate_absolute_s.c.o[0m
+[23.974s] [ 82%] [32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_py.dir/rosidl_generator_py/turtlesim/msg/_color_s.c.o[0m
+[24.148s] [ 83%] [32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_py.dir/rosidl_generator_py/turtlesim/msg/_pose_s.c.o[0m
+[24.323s] [ 84%] [32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_py.dir/rosidl_generator_py/turtlesim/srv/_kill_s.c.o[0m
+[24.501s] [ 85%] [32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_py.dir/rosidl_generator_py/turtlesim/srv/_set_pen_s.c.o[0m
+[24.691s] [ 86%] [32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_py.dir/rosidl_generator_py/turtlesim/srv/_spawn_s.c.o[0m
+[24.817s] [ 87%] [32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_py.dir/rosidl_generator_py/turtlesim/srv/_teleport_absolute_s.c.o[0m
+[24.877s] [ 88%] [32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_py.dir/rosidl_generator_py/turtlesim/srv/_teleport_relative_s.c.o[0m
+[25.043s] [ 89%] [32m[1mLinking C shared library rosidl_generator_py/turtlesim/libturtlesim__rosidl_generator_py.so[0m
+[25.291s] [ 89%] Built target turtlesim__rosidl_generator_py
+[25.345s] [ 91%] [32mBuilding C object CMakeFiles/turtlesim__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/turtlesim/_turtlesim_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[25.345s] [ 91%] [32mBuilding C object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/turtlesim/_turtlesim_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[25.582s] [ 92%] [32m[1mLinking C shared library rosidl_generator_py/turtlesim/turtlesim_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[25.597s] [ 93%] [32m[1mLinking C shared library rosidl_generator_py/turtlesim/turtlesim_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[25.849s] [ 93%] Built target turtlesim__rosidl_typesupport_fastrtps_c__pyext
+[25.868s] [ 93%] Built target turtlesim__rosidl_typesupport_introspection_c__pyext
+[25.911s] [ 94%] [32mBuilding C object CMakeFiles/turtlesim__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/turtlesim/_turtlesim_s.ep.rosidl_typesupport_c.c.o[0m
+[26.123s] [ 95%] [32m[1mLinking C shared library rosidl_generator_py/turtlesim/turtlesim_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[26.346s] [ 95%] Built target turtlesim__rosidl_typesupport_c__pyext
+[27.461s] [ 96%] [32m[1mLinking CXX executable turtle_teleop_key[0m
+[28.425s] [ 96%] Built target turtle_teleop_key
+[30.593s] [ 97%] [32m[1mLinking CXX executable mimic[0m
+[31.393s] [ 98%] [32m[1mLinking CXX executable draw_square[0m
+[31.674s] [ 98%] Built target mimic
+[32.461s] [ 98%] Built target draw_square
+[35.011s] [100%] [32m[1mLinking CXX executable turtlesim_node[0m
+[37.692s] [100%] Built target turtlesim_node
+[37.706s] Invoked command in '/home/adamn/Hackathon/ROSandFlask/ros2_ws/build/turtlesim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/adamn/ros2_humble/install/rqt_bag_plugins:/home/adamn/ros2_humble/install/rqt_bag:/home/adamn/ros2_humble/install/ros2bag:/home/adamn/ros2_humble/install/tracetools_test:/home/adamn/ros2_humble/install/tracetools_launch:/home/adamn/ros2_humble/install/topic_monitor:/home/adamn/ros2_humble/install/tf2_tools:/home/adamn/ros2_humble/install/examples_tf2_py:/home/adamn/ros2_humble/install/tf2_ros_py:/home/adamn/ros2_humble/install/sros2:/home/adamn/ros2_humble/install/rqt_topic:/home/adamn/ros2_humble/install/rqt_srv:/home/adamn/ros2_humble/install/rqt_shell:/home/adamn/ros2_humble/install/rqt_service_caller:/home/adamn/ros2_humble/install/rqt_reconfigure:/home/adamn/ros2_humble/install/rqt_py_console:/home/adamn/ros2_humble/install/rqt_publisher:/home/adamn/ros2_humble/install/rqt_plot:/home/adamn/ros2_humble/install/rqt_action:/home/adamn/ros2_humble/install/rqt_msg:/home/adamn/ros2_humble/install/rqt_console:/home/adamn/ros2_humble/install/rqt:/home/adamn/ros2_humble/install/rqt_graph:/home/adamn/ros2_humble/install/rqt_gui_py:/home/adamn/ros2_humble/install/rqt_gui:/home/adamn/ros2_humble/install/ros2trace:/home/adamn/ros2_humble/install/ros2topic:/home/adamn/ros2_humble/install/ros2test:/home/adamn/ros2_humble/install/ros2component:/home/adamn/ros2_humble/install/ros2param:/home/adamn/ros2_humble/install/ros2lifecycle:/home/adamn/ros2_humble/install/ros2service:/home/adamn/ros2_humble/install/ros2run:/home/adamn/ros2_humble/install/ros2launch:/home/adamn/ros2_humble/install/ros2pkg:/home/adamn/ros2_humble/install/ros2node:/home/adamn/ros2_humble/install/ros2multicast:/home/adamn/ros2_humble/install/ros2interface:/home/adamn/ros2_humble/install/ros2doctor:/home/adamn/ros2_humble/install/ros2action:/home/adamn/ros2_humble/install/ros2cli:/home/adamn/ros2_humble/install/quality_of_service_demo_py:/home/adamn/ros2_humble/install/lifecycle_py:/home/adamn/ros2_humble/install/launch_testing_ros:/home/adamn/ros2_humble/install/launch_ros:/home/adamn/ros2_humble/install/examples_rclpy_pointcloud_publisher:/home/adamn/ros2_humble/install/examples_rclpy_minimal_subscriber:/home/adamn/ros2_humble/install/examples_rclpy_minimal_service:/home/adamn/ros2_humble/install/examples_rclpy_minimal_publisher:/home/adamn/ros2_humble/install/examples_rclpy_minimal_client:/home/adamn/ros2_humble/install/examples_rclpy_minimal_action_server:/home/adamn/ros2_humble/install/examples_rclpy_minimal_action_client:/home/adamn/ros2_humble/install/examples_rclpy_guard_conditions:/home/adamn/ros2_humble/install/examples_rclpy_executors:/home/adamn/ros2_humble/install/demo_nodes_py:/home/adamn/ros2_humble/install/action_tutorials_py:/home/adamn/ros2_humble/install/ament_uncrustify:/home/adamn/ros2_humble/install/tracetools_trace:/home/adamn/ros2_humble/install/tracetools_read:/home/adamn/ros2_humble/install/test_tracetools_launch:/home/adamn/ros2_humble/install/test_launch_ros:/home/adamn/ros2_humble/install/sensor_msgs_py:/home/adamn/ros2_humble/install/rpyutils:/home/adamn/ros2_humble/install/rosidl_runtime_py:/home/adamn/ros2_humble/install/rosidl_cli:/home/adamn/ros2_humble/install/launch_pytest:/home/adamn/ros2_humble/install/launch_testing:/home/adamn/ros2_humble/install/launch_yaml:/home/adamn/ros2_humble/install/launch_xml:/home/adamn/ros2_humble/install/launch:/home/adamn/ros2_humble/install/osrf_pycommon:/home/adamn/ros2_humble/install/launch_testing_examples:/home/adamn/ros2_humble/install/domain_coordinator:/home/adamn/ros2_humble/install/ament_xmllint:/home/adamn/ros2_humble/install/ament_pyflakes:/home/adamn/ros2_humble/install/ament_pycodestyle:/home/adamn/ros2_humble/install/ament_pep257:/home/adamn/ros2_humble/install/ament_pclint:/home/adamn/ros2_humble/install/ament_package:/home/adamn/ros2_humble/install/ament_mypy:/home/adamn/ros2_humble/install/ament_lint_cmake:/home/adamn/ros2_humble/install/ament_flake8:/home/adamn/ros2_humble/install/ament_copyright:/home/adamn/ros2_humble/install/ament_lint:/home/adamn/ros2_humble/install/ament_index_python:/home/adamn/ros2_humble/install/ament_cpplint:/home/adamn/ros2_humble/install/ament_cppcheck:/home/adamn/ros2_humble/install/ament_clang_tidy:/home/adamn/ros2_humble/install/ament_clang_format /usr/bin/cmake --build /home/adamn/Hackathon/ROSandFlask/ros2_ws/build/turtlesim -- -j8 -l8
+[38.373s] Invoking command in '/home/adamn/Hackathon/ROSandFlask/ros2_ws/build/turtlesim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/adamn/ros2_humble/install/rqt_bag_plugins:/home/adamn/ros2_humble/install/rqt_bag:/home/adamn/ros2_humble/install/ros2bag:/home/adamn/ros2_humble/install/tracetools_test:/home/adamn/ros2_humble/install/tracetools_launch:/home/adamn/ros2_humble/install/topic_monitor:/home/adamn/ros2_humble/install/tf2_tools:/home/adamn/ros2_humble/install/examples_tf2_py:/home/adamn/ros2_humble/install/tf2_ros_py:/home/adamn/ros2_humble/install/sros2:/home/adamn/ros2_humble/install/rqt_topic:/home/adamn/ros2_humble/install/rqt_srv:/home/adamn/ros2_humble/install/rqt_shell:/home/adamn/ros2_humble/install/rqt_service_caller:/home/adamn/ros2_humble/install/rqt_reconfigure:/home/adamn/ros2_humble/install/rqt_py_console:/home/adamn/ros2_humble/install/rqt_publisher:/home/adamn/ros2_humble/install/rqt_plot:/home/adamn/ros2_humble/install/rqt_action:/home/adamn/ros2_humble/install/rqt_msg:/home/adamn/ros2_humble/install/rqt_console:/home/adamn/ros2_humble/install/rqt:/home/adamn/ros2_humble/install/rqt_graph:/home/adamn/ros2_humble/install/rqt_gui_py:/home/adamn/ros2_humble/install/rqt_gui:/home/adamn/ros2_humble/install/ros2trace:/home/adamn/ros2_humble/install/ros2topic:/home/adamn/ros2_humble/install/ros2test:/home/adamn/ros2_humble/install/ros2component:/home/adamn/ros2_humble/install/ros2param:/home/adamn/ros2_humble/install/ros2lifecycle:/home/adamn/ros2_humble/install/ros2service:/home/adamn/ros2_humble/install/ros2run:/home/adamn/ros2_humble/install/ros2launch:/home/adamn/ros2_humble/install/ros2pkg:/home/adamn/ros2_humble/install/ros2node:/home/adamn/ros2_humble/install/ros2multicast:/home/adamn/ros2_humble/install/ros2interface:/home/adamn/ros2_humble/install/ros2doctor:/home/adamn/ros2_humble/install/ros2action:/home/adamn/ros2_humble/install/ros2cli:/home/adamn/ros2_humble/install/quality_of_service_demo_py:/home/adamn/ros2_humble/install/lifecycle_py:/home/adamn/ros2_humble/install/launch_testing_ros:/home/adamn/ros2_humble/install/launch_ros:/home/adamn/ros2_humble/install/examples_rclpy_pointcloud_publisher:/home/adamn/ros2_humble/install/examples_rclpy_minimal_subscriber:/home/adamn/ros2_humble/install/examples_rclpy_minimal_service:/home/adamn/ros2_humble/install/examples_rclpy_minimal_publisher:/home/adamn/ros2_humble/install/examples_rclpy_minimal_client:/home/adamn/ros2_humble/install/examples_rclpy_minimal_action_server:/home/adamn/ros2_humble/install/examples_rclpy_minimal_action_client:/home/adamn/ros2_humble/install/examples_rclpy_guard_conditions:/home/adamn/ros2_humble/install/examples_rclpy_executors:/home/adamn/ros2_humble/install/demo_nodes_py:/home/adamn/ros2_humble/install/action_tutorials_py:/home/adamn/ros2_humble/install/ament_uncrustify:/home/adamn/ros2_humble/install/tracetools_trace:/home/adamn/ros2_humble/install/tracetools_read:/home/adamn/ros2_humble/install/test_tracetools_launch:/home/adamn/ros2_humble/install/test_launch_ros:/home/adamn/ros2_humble/install/sensor_msgs_py:/home/adamn/ros2_humble/install/rpyutils:/home/adamn/ros2_humble/install/rosidl_runtime_py:/home/adamn/ros2_humble/install/rosidl_cli:/home/adamn/ros2_humble/install/launch_pytest:/home/adamn/ros2_humble/install/launch_testing:/home/adamn/ros2_humble/install/launch_yaml:/home/adamn/ros2_humble/install/launch_xml:/home/adamn/ros2_humble/install/launch:/home/adamn/ros2_humble/install/osrf_pycommon:/home/adamn/ros2_humble/install/launch_testing_examples:/home/adamn/ros2_humble/install/domain_coordinator:/home/adamn/ros2_humble/install/ament_xmllint:/home/adamn/ros2_humble/install/ament_pyflakes:/home/adamn/ros2_humble/install/ament_pycodestyle:/home/adamn/ros2_humble/install/ament_pep257:/home/adamn/ros2_humble/install/ament_pclint:/home/adamn/ros2_humble/install/ament_package:/home/adamn/ros2_humble/install/ament_mypy:/home/adamn/ros2_humble/install/ament_lint_cmake:/home/adamn/ros2_humble/install/ament_flake8:/home/adamn/ros2_humble/install/ament_copyright:/home/adamn/ros2_humble/install/ament_lint:/home/adamn/ros2_humble/install/ament_index_python:/home/adamn/ros2_humble/install/ament_cpplint:/home/adamn/ros2_humble/install/ament_cppcheck:/home/adamn/ros2_humble/install/ament_clang_tidy:/home/adamn/ros2_humble/install/ament_clang_format /usr/bin/cmake --install /home/adamn/Hackathon/ROSandFlask/ros2_ws/build/turtlesim
+[38.390s] -- Install configuration: ""
+[38.391s] -- Installing: /home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/share/ament_index/resource_index/rosidl_interfaces/turtlesim
+[38.391s] -- Installing: /home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/include/turtlesim/turtlesim
+[38.391s] -- Installing: /home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv
+[38.391s] -- Installing: /home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/teleport_relative.h
+[38.392s] -- Installing: /home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/set_pen.h
+[38.392s] -- Installing: /home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/teleport_absolute.h
+[38.392s] -- Installing: /home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/spawn.h
+[38.392s] -- Installing: /home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/kill.h
+[38.392s] -- Installing: /home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail
+[38.392s] -- Installing: /home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__type_support.h
+[38.392s] -- Installing: /home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__functions.c
+[38.392s] -- Installing: /home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__functions.h
+[38.393s] -- Installing: /home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__type_support.h
+[38.393s] -- Installing: /home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__functions.h
+[38.393s] -- Installing: /home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__type_support.h
+[38.393s] -- Installing: /home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__type_support.h
+[38.393s] -- Installing: /home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__struct.h
+[38.393s] -- Installing: /home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__struct.h
+[38.393s] -- Installing: /home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__struct.h
+[38.393s] -- Installing: /home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__functions.h
+[38.393s] -- Installing: /home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__functions.c
+[38.393s] -- Installing: /home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__struct.h
+[38.393s] -- Installing: /home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__functions.c
+[38.394s] -- Installing: /home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__type_support.h
+[38.394s] -- Installing: /home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__functions.c
+[38.394s] -- Installing: /home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__struct.h
+[38.394s] -- Installing: /home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__functions.h
+[38.394s] -- Installing: /home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__functions.c
+[38.394s] -- Installing: /home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__functions.h
+[38.394s] -- Installing: /home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action
+[38.395s] -- Installing: /home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action/rotate_absolute.h
+[38.395s] -- Installing: /home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail
+[38.395s] -- Installing: /home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__struct.h
+[38.395s] -- Installing: /home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__functions.c
+[38.395s] -- Installing: /home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__type_support.h
+[38.395s] -- Installing: /home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__functions.h
+[38.395s] -- Installing: /home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg
+[38.395s] -- Installing: /home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/pose.h
+[38.395s] -- Installing: /home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/color.h
+[38.395s] -- Installing: /home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/rosidl_generator_c__visibility_control.h
+[38.396s] -- Installing: /home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail
+[38.396s] -- Installing: /home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__struct.h
+[38.396s] -- Installing: /home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__functions.h
+[38.396s] -- Installing: /home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__functions.c
+[38.396s] -- Installing: /home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__type_support.h
+[38.396s] -- Installing: /home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__functions.c
+[38.396s] -- Installing: /home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__type_support.h
+[38.396s] -- Installing: /home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__functions.h
+[38.396s] -- Installing: /home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__struct.h
+[38.397s] -- Installing: /home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/share/turtlesim/environment/library_path.sh
+[38.397s] -- Installing: /home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/share/turtlesim/environment/library_path.dsv
+[38.398s] -- Installing: /home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/lib/libturtlesim__rosidl_generator_c.so
+[38.398s] -- Set runtime path of "/home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/lib/libturtlesim__rosidl_generator_c.so" to ""
+[38.398s] -- Up-to-date: /home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/include/turtlesim/turtlesim
+[38.398s] -- Up-to-date: /home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv
+[38.398s] -- Up-to-date: /home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail
+[38.399s] -- Installing: /home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__rosidl_typesupport_fastrtps_c.h
+[38.399s] -- Installing: /home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__rosidl_typesupport_fastrtps_c.h
+[38.399s] -- Installing: /home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__rosidl_typesupport_fastrtps_c.h
+[38.399s] -- Installing: /home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__rosidl_typesupport_fastrtps_c.h
+[38.399s] -- Installing: /home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__rosidl_typesupport_fastrtps_c.h
+[38.399s] -- Up-to-date: /home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action
+[38.399s] -- Up-to-date: /home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail
+[38.400s] -- Installing: /home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__rosidl_typesupport_fastrtps_c.h
+[38.400s] -- Up-to-date: /home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg
+[38.400s] -- Installing: /home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[38.400s] -- Up-to-date: /home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail
+[38.400s] -- Installing: /home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__rosidl_typesupport_fastrtps_c.h
+[38.400s] -- Installing: /home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__rosidl_typesupport_fastrtps_c.h
+[38.400s] -- Installing: /home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/lib/libturtlesim__rosidl_typesupport_fastrtps_c.so
+[38.400s] -- Set runtime path of "/home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/lib/libturtlesim__rosidl_typesupport_fastrtps_c.so" to ""
+[38.401s] -- Up-to-date: /home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/include/turtlesim/turtlesim
+[38.401s] -- Up-to-date: /home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv
+[38.401s] -- Installing: /home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/teleport_relative.hpp
+[38.401s] -- Installing: /home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/teleport_absolute.hpp
+[38.401s] -- Installing: /home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/spawn.hpp
+[38.401s] -- Installing: /home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/kill.hpp
+[38.401s] -- Installing: /home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/set_pen.hpp
+[38.402s] -- Up-to-date: /home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail
+[38.402s] -- Installing: /home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__builder.hpp
+[38.402s] -- Installing: /home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__struct.hpp
+[38.402s] -- Installing: /home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__builder.hpp
+[38.402s] -- Installing: /home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__builder.hpp
+[38.402s] -- Installing: /home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__struct.hpp
+[38.402s] -- Installing: /home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__traits.hpp
+[38.402s] -- Installing: /home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__traits.hpp
+[38.402s] -- Installing: /home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__traits.hpp
+[38.403s] -- Installing: /home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__traits.hpp
+[38.403s] -- Installing: /home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__struct.hpp
+[38.403s] -- Installing: /home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__traits.hpp
+[38.403s] -- Installing: /home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__builder.hpp
+[38.403s] -- Installing: /home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__struct.hpp
+[38.403s] -- Installing: /home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__struct.hpp
+[38.403s] -- Installing: /home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__builder.hpp
+[38.403s] -- Up-to-date: /home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action
+[38.404s] -- Installing: /home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action/rotate_absolute.hpp
+[38.404s] -- Up-to-date: /home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail
+[38.404s] -- Installing: /home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__traits.hpp
+[38.404s] -- Installing: /home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__builder.hpp
+[38.404s] -- Installing: /home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__struct.hpp
+[38.404s] -- Up-to-date: /home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg
+[38.404s] -- Installing: /home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/color.hpp
+[38.404s] -- Installing: /home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/pose.hpp
+[38.405s] -- Up-to-date: /home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail
+[38.405s] -- Installing: /home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__struct.hpp
+[38.405s] -- Installing: /home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__traits.hpp
+[38.405s] -- Installing: /home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__builder.hpp
+[38.405s] -- Installing: /home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__struct.hpp
+[38.405s] -- Installing: /home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__traits.hpp
+[38.405s] -- Installing: /home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__builder.hpp
+[38.406s] -- Up-to-date: /home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/include/turtlesim/turtlesim
+[38.406s] -- Up-to-date: /home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv
+[38.406s] -- Up-to-date: /home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail
+[38.406s] -- Installing: /home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__rosidl_typesupport_fastrtps_cpp.hpp
+[38.406s] -- Installing: /home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__rosidl_typesupport_fastrtps_cpp.hpp
+[38.406s] -- Installing: /home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__rosidl_typesupport_fastrtps_cpp.hpp
+[38.406s] -- Installing: /home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/dds_fastrtps
+[38.406s] -- Installing: /home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__rosidl_typesupport_fastrtps_cpp.hpp
+[38.406s] -- Installing: /home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__rosidl_typesupport_fastrtps_cpp.hpp
+[38.407s] -- Up-to-date: /home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action
+[38.407s] -- Up-to-date: /home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail
+[38.407s] -- Installing: /home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail/dds_fastrtps
+[38.407s] -- Installing: /home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__rosidl_typesupport_fastrtps_cpp.hpp
+[38.407s] -- Up-to-date: /home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg
+[38.407s] -- Installing: /home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[38.407s] -- Up-to-date: /home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail
+[38.408s] -- Installing: /home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__rosidl_typesupport_fastrtps_cpp.hpp
+[38.408s] -- Installing: /home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__rosidl_typesupport_fastrtps_cpp.hpp
+[38.408s] -- Installing: /home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/dds_fastrtps
+[38.408s] -- Installing: /home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/lib/libturtlesim__rosidl_typesupport_fastrtps_cpp.so
+[38.408s] -- Set runtime path of "/home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/lib/libturtlesim__rosidl_typesupport_fastrtps_cpp.so" to ""
+[38.408s] -- Up-to-date: /home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/include/turtlesim/turtlesim
+[38.408s] -- Up-to-date: /home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv
+[38.408s] -- Up-to-date: /home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail
+[38.409s] -- Installing: /home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__type_support.c
+[38.409s] -- Installing: /home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__type_support.c
+[38.409s] -- Installing: /home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__rosidl_typesupport_introspection_c.h
+[38.409s] -- Installing: /home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__type_support.c
+[38.409s] -- Installing: /home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__type_support.c
+[38.409s] -- Installing: /home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__rosidl_typesupport_introspection_c.h
+[38.409s] -- Installing: /home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__rosidl_typesupport_introspection_c.h
+[38.410s] -- Installing: /home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__rosidl_typesupport_introspection_c.h
+[38.410s] -- Installing: /home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__rosidl_typesupport_introspection_c.h
+[38.410s] -- Installing: /home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__type_support.c
+[38.410s] -- Up-to-date: /home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action
+[38.410s] -- Up-to-date: /home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail
+[38.410s] -- Installing: /home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__type_support.c
+[38.410s] -- Installing: /home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__rosidl_typesupport_introspection_c.h
+[38.411s] -- Up-to-date: /home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg
+[38.411s] -- Installing: /home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[38.411s] -- Up-to-date: /home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail
+[38.411s] -- Installing: /home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__type_support.c
+[38.411s] -- Installing: /home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__rosidl_typesupport_introspection_c.h
+[38.411s] -- Installing: /home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__type_support.c
+[38.411s] -- Installing: /home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__rosidl_typesupport_introspection_c.h
+[38.411s] -- Installing: /home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/lib/libturtlesim__rosidl_typesupport_introspection_c.so
+[38.412s] -- Set runtime path of "/home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/lib/libturtlesim__rosidl_typesupport_introspection_c.so" to ""
+[38.412s] -- Installing: /home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/lib/libturtlesim__rosidl_typesupport_c.so
+[38.412s] -- Set runtime path of "/home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/lib/libturtlesim__rosidl_typesupport_c.so" to ""
+[38.412s] -- Up-to-date: /home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/include/turtlesim/turtlesim
+[38.412s] -- Up-to-date: /home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv
+[38.412s] -- Up-to-date: /home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail
+[38.412s] -- Installing: /home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__rosidl_typesupport_introspection_cpp.hpp
+[38.412s] -- Installing: /home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__type_support.cpp
+[38.413s] -- Installing: /home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__rosidl_typesupport_introspection_cpp.hpp
+[38.413s] -- Installing: /home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__rosidl_typesupport_introspection_cpp.hpp
+[38.413s] -- Installing: /home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__type_support.cpp
+[38.413s] -- Installing: /home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__type_support.cpp
+[38.413s] -- Installing: /home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__type_support.cpp
+[38.413s] -- Installing: /home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__rosidl_typesupport_introspection_cpp.hpp
+[38.413s] -- Installing: /home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__rosidl_typesupport_introspection_cpp.hpp
+[38.413s] -- Installing: /home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__type_support.cpp
+[38.413s] -- Up-to-date: /home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action
+[38.414s] -- Up-to-date: /home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail
+[38.414s] -- Installing: /home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__type_support.cpp
+[38.414s] -- Installing: /home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__rosidl_typesupport_introspection_cpp.hpp
+[38.414s] -- Up-to-date: /home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg
+[38.414s] -- Up-to-date: /home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail
+[38.414s] -- Installing: /home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__rosidl_typesupport_introspection_cpp.hpp
+[38.414s] -- Installing: /home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__rosidl_typesupport_introspection_cpp.hpp
+[38.414s] -- Installing: /home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__type_support.cpp
+[38.415s] -- Installing: /home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__type_support.cpp
+[38.415s] -- Installing: /home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/lib/libturtlesim__rosidl_typesupport_introspection_cpp.so
+[38.415s] -- Set runtime path of "/home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/lib/libturtlesim__rosidl_typesupport_introspection_cpp.so" to ""
+[38.415s] -- Installing: /home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/lib/libturtlesim__rosidl_typesupport_cpp.so
+[38.415s] -- Set runtime path of "/home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/lib/libturtlesim__rosidl_typesupport_cpp.so" to ""
+[38.415s] -- Installing: /home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/share/turtlesim/environment/pythonpath.sh
+[38.415s] -- Installing: /home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/share/turtlesim/environment/pythonpath.dsv
+[38.415s] -- Installing: /home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim-1.4.2-py3.10.egg-info
+[38.415s] -- Installing: /home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim-1.4.2-py3.10.egg-info/SOURCES.txt
+[38.416s] -- Installing: /home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim-1.4.2-py3.10.egg-info/top_level.txt
+[38.416s] -- Installing: /home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim-1.4.2-py3.10.egg-info/dependency_links.txt
+[38.416s] -- Installing: /home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim-1.4.2-py3.10.egg-info/PKG-INFO
+[38.416s] -- Installing: /home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim
+[38.416s] -- Installing: /home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/turtlesim_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[38.416s] -- Installing: /home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/_turtlesim_s.ep.rosidl_typesupport_c.c
+[38.416s] -- Installing: /home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv
+[38.417s] -- Installing: /home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_teleport_relative_s.c
+[38.417s] -- Installing: /home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/__init__.py
+[38.417s] -- Installing: /home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_teleport_relative.py
+[38.417s] -- Installing: /home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_set_pen_s.c
+[38.417s] -- Installing: /home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_set_pen.py
+[38.417s] -- Installing: /home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_kill.py
+[38.417s] -- Installing: /home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_teleport_absolute_s.c
+[38.417s] -- Installing: /home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_spawn_s.c
+[38.417s] -- Installing: /home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_teleport_absolute.py
+[38.417s] -- Installing: /home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_kill_s.c
+[38.417s] -- Installing: /home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_spawn.py
+[38.417s] -- Installing: /home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/action
+[38.417s] -- Installing: /home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/action/__init__.py
+[38.417s] -- Installing: /home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/action/_rotate_absolute_s.c
+[38.417s] -- Installing: /home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/action/_rotate_absolute.py
+[38.417s] -- Installing: /home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/turtlesim_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[38.417s] -- Installing: /home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg
+[38.418s] -- Installing: /home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg/__init__.py
+[38.418s] -- Installing: /home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg/_color.py
+[38.418s] -- Installing: /home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg/_color_s.c
+[38.418s] -- Installing: /home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg/_pose.py
+[38.418s] -- Installing: /home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg/_pose_s.c
+[38.418s] -- Installing: /home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/__init__.py
+[38.418s] -- Installing: /home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/_turtlesim_s.ep.rosidl_typesupport_introspection_c.c
+[38.418s] -- Installing: /home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/turtlesim_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[38.418s] -- Installing: /home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/_turtlesim_s.ep.rosidl_typesupport_fastrtps_c.c
+[38.418s] -- Installing: /home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/libturtlesim__rosidl_generator_py.so
+[38.581s] Listing '/home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim'...
+[38.581s] Compiling '/home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/__init__.py'...
+[38.581s] Listing '/home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/action'...
+[38.581s] Compiling '/home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/action/__init__.py'...
+[38.581s] Compiling '/home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/action/_rotate_absolute.py'...
+[38.581s] Listing '/home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg'...
+[38.581s] Compiling '/home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg/__init__.py'...
+[38.581s] Compiling '/home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg/_color.py'...
+[38.581s] Compiling '/home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg/_pose.py'...
+[38.582s] Listing '/home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv'...
+[38.582s] Compiling '/home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/__init__.py'...
+[38.582s] Compiling '/home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_kill.py'...
+[38.582s] Compiling '/home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_set_pen.py'...
+[38.582s] Compiling '/home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_spawn.py'...
+[38.582s] Compiling '/home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_teleport_absolute.py'...
+[38.582s] Compiling '/home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_teleport_relative.py'...
+[38.586s] -- Installing: /home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/turtlesim_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[38.586s] -- Set runtime path of "/home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/turtlesim_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[38.586s] -- Installing: /home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/turtlesim_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[38.586s] -- Set runtime path of "/home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/turtlesim_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[38.587s] -- Installing: /home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/turtlesim_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[38.587s] -- Set runtime path of "/home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/turtlesim_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[38.587s] -- Installing: /home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/lib/libturtlesim__rosidl_generator_py.so
+[38.587s] -- Set runtime path of "/home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/lib/libturtlesim__rosidl_generator_py.so" to ""
+[38.587s] -- Installing: /home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/share/turtlesim/action/RotateAbsolute.idl
+[38.587s] -- Installing: /home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/share/turtlesim/msg/Color.idl
+[38.588s] -- Installing: /home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/share/turtlesim/msg/Pose.idl
+[38.588s] -- Installing: /home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/share/turtlesim/srv/Kill.idl
+[38.588s] -- Installing: /home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/share/turtlesim/srv/SetPen.idl
+[38.588s] -- Installing: /home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/share/turtlesim/srv/Spawn.idl
+[38.588s] -- Installing: /home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/share/turtlesim/srv/TeleportAbsolute.idl
+[38.589s] -- Installing: /home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/share/turtlesim/srv/TeleportRelative.idl
+[38.589s] -- Installing: /home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/share/turtlesim/action/RotateAbsolute.action
+[38.589s] -- Installing: /home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/share/turtlesim/msg/Color.msg
+[38.589s] -- Installing: /home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/share/turtlesim/msg/Pose.msg
+[38.589s] -- Installing: /home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/share/turtlesim/srv/Kill.srv
+[38.589s] -- Installing: /home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/share/turtlesim/srv/Kill_Request.msg
+[38.589s] -- Installing: /home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/share/turtlesim/srv/Kill_Response.msg
+[38.589s] -- Installing: /home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/share/turtlesim/srv/SetPen.srv
+[38.590s] -- Installing: /home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/share/turtlesim/srv/SetPen_Request.msg
+[38.590s] -- Installing: /home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/share/turtlesim/srv/SetPen_Response.msg
+[38.590s] -- Installing: /home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/share/turtlesim/srv/Spawn.srv
+[38.590s] -- Installing: /home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/share/turtlesim/srv/Spawn_Request.msg
+[38.590s] -- Installing: /home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/share/turtlesim/srv/Spawn_Response.msg
+[38.590s] -- Installing: /home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/share/turtlesim/srv/TeleportAbsolute.srv
+[38.590s] -- Installing: /home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/share/turtlesim/srv/TeleportAbsolute_Request.msg
+[38.590s] -- Installing: /home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/share/turtlesim/srv/TeleportAbsolute_Response.msg
+[38.590s] -- Installing: /home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/share/turtlesim/srv/TeleportRelative.srv
+[38.590s] -- Installing: /home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/share/turtlesim/srv/TeleportRelative_Request.msg
+[38.590s] -- Installing: /home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/share/turtlesim/srv/TeleportRelative_Response.msg
+[38.590s] -- Installing: /home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/lib/turtlesim/turtlesim_node
+[38.598s] -- Set runtime path of "/home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/lib/turtlesim/turtlesim_node" to ""
+[38.598s] -- Installing: /home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/lib/turtlesim/turtle_teleop_key
+[38.599s] -- Set runtime path of "/home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/lib/turtlesim/turtle_teleop_key" to ""
+[38.600s] -- Installing: /home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/lib/turtlesim/draw_square
+[38.603s] -- Set runtime path of "/home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/lib/turtlesim/draw_square" to ""
+[38.603s] -- Installing: /home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/lib/turtlesim/mimic
+[38.606s] -- Set runtime path of "/home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/lib/turtlesim/mimic" to ""
+[38.606s] -- Installing: /home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/share/turtlesim/images
+[38.607s] -- Installing: /home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/share/turtlesim/images/humble.png
+[38.607s] -- Installing: /home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/share/turtlesim/images/bouncy.png
+[38.607s] -- Installing: /home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/share/turtlesim/images/galactic.png
+[38.607s] -- Installing: /home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/share/turtlesim/images/ardent.png
+[38.607s] -- Installing: /home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/share/turtlesim/images/dashing.png
+[38.607s] -- Installing: /home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/share/turtlesim/images/rolling.png
+[38.607s] -- Installing: /home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/share/turtlesim/images/foxy.png
+[38.608s] -- Installing: /home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/share/turtlesim/images/crystal.png
+[38.608s] -- Installing: /home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/share/turtlesim/images/eloquent.png
+[38.608s] -- Installing: /home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/share/turtlesim/launch
+[38.608s] -- Installing: /home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/share/turtlesim/launch/multisim.launch.py
+[38.608s] -- Installing: /home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/share/ament_index/resource_index/package_run_dependencies/turtlesim
+[38.608s] -- Installing: /home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/share/ament_index/resource_index/parent_prefix_path/turtlesim
+[38.608s] -- Installing: /home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/share/turtlesim/environment/ament_prefix_path.sh
+[38.608s] -- Installing: /home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/share/turtlesim/environment/ament_prefix_path.dsv
+[38.609s] -- Installing: /home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/share/turtlesim/environment/path.sh
+[38.609s] -- Installing: /home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/share/turtlesim/environment/path.dsv
+[38.609s] -- Installing: /home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/share/turtlesim/local_setup.bash
+[38.609s] -- Installing: /home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/share/turtlesim/local_setup.sh
+[38.609s] -- Installing: /home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/share/turtlesim/local_setup.zsh
+[38.609s] -- Installing: /home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/share/turtlesim/local_setup.dsv
+[38.609s] -- Installing: /home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/share/turtlesim/package.dsv
+[38.609s] -- Installing: /home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/share/ament_index/resource_index/packages/turtlesim
+[38.610s] -- Installing: /home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_generator_cExport.cmake
+[38.610s] -- Installing: /home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_generator_cExport-noconfig.cmake
+[38.610s] -- Installing: /home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_typesupport_fastrtps_cExport.cmake
+[38.610s] -- Installing: /home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[38.610s] -- Installing: /home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_generator_cppExport.cmake
+[38.610s] -- Installing: /home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_typesupport_fastrtps_cppExport.cmake
+[38.610s] -- Installing: /home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[38.611s] -- Installing: /home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_introspection_cExport.cmake
+[38.611s] -- Installing: /home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[38.611s] -- Installing: /home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_cExport.cmake
+[38.611s] -- Installing: /home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_cExport-noconfig.cmake
+[38.611s] -- Installing: /home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_introspection_cppExport.cmake
+[38.611s] -- Installing: /home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[38.611s] -- Installing: /home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_cppExport.cmake
+[38.611s] -- Installing: /home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_cppExport-noconfig.cmake
+[38.612s] -- Installing: /home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_generator_pyExport.cmake
+[38.612s] -- Installing: /home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_generator_pyExport-noconfig.cmake
+[38.612s] -- Installing: /home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/share/turtlesim/cmake/rosidl_cmake-extras.cmake
+[38.612s] -- Installing: /home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/share/turtlesim/cmake/ament_cmake_export_dependencies-extras.cmake
+[38.612s] -- Installing: /home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/share/turtlesim/cmake/ament_cmake_export_include_directories-extras.cmake
+[38.612s] -- Installing: /home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/share/turtlesim/cmake/ament_cmake_export_libraries-extras.cmake
+[38.612s] -- Installing: /home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/share/turtlesim/cmake/ament_cmake_export_targets-extras.cmake
+[38.613s] -- Installing: /home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/share/turtlesim/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[38.613s] -- Installing: /home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/share/turtlesim/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[38.613s] -- Installing: /home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/share/turtlesim/cmake/turtlesimConfig.cmake
+[38.613s] -- Installing: /home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/share/turtlesim/cmake/turtlesimConfig-version.cmake
+[38.613s] -- Installing: /home/adamn/Hackathon/ROSandFlask/ros2_ws/install/turtlesim/share/turtlesim/package.xml
+[38.614s] Invoked command in '/home/adamn/Hackathon/ROSandFlask/ros2_ws/build/turtlesim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/adamn/ros2_humble/install/rqt_bag_plugins:/home/adamn/ros2_humble/install/rqt_bag:/home/adamn/ros2_humble/install/ros2bag:/home/adamn/ros2_humble/install/tracetools_test:/home/adamn/ros2_humble/install/tracetools_launch:/home/adamn/ros2_humble/install/topic_monitor:/home/adamn/ros2_humble/install/tf2_tools:/home/adamn/ros2_humble/install/examples_tf2_py:/home/adamn/ros2_humble/install/tf2_ros_py:/home/adamn/ros2_humble/install/sros2:/home/adamn/ros2_humble/install/rqt_topic:/home/adamn/ros2_humble/install/rqt_srv:/home/adamn/ros2_humble/install/rqt_shell:/home/adamn/ros2_humble/install/rqt_service_caller:/home/adamn/ros2_humble/install/rqt_reconfigure:/home/adamn/ros2_humble/install/rqt_py_console:/home/adamn/ros2_humble/install/rqt_publisher:/home/adamn/ros2_humble/install/rqt_plot:/home/adamn/ros2_humble/install/rqt_action:/home/adamn/ros2_humble/install/rqt_msg:/home/adamn/ros2_humble/install/rqt_console:/home/adamn/ros2_humble/install/rqt:/home/adamn/ros2_humble/install/rqt_graph:/home/adamn/ros2_humble/install/rqt_gui_py:/home/adamn/ros2_humble/install/rqt_gui:/home/adamn/ros2_humble/install/ros2trace:/home/adamn/ros2_humble/install/ros2topic:/home/adamn/ros2_humble/install/ros2test:/home/adamn/ros2_humble/install/ros2component:/home/adamn/ros2_humble/install/ros2param:/home/adamn/ros2_humble/install/ros2lifecycle:/home/adamn/ros2_humble/install/ros2service:/home/adamn/ros2_humble/install/ros2run:/home/adamn/ros2_humble/install/ros2launch:/home/adamn/ros2_humble/install/ros2pkg:/home/adamn/ros2_humble/install/ros2node:/home/adamn/ros2_humble/install/ros2multicast:/home/adamn/ros2_humble/install/ros2interface:/home/adamn/ros2_humble/install/ros2doctor:/home/adamn/ros2_humble/install/ros2action:/home/adamn/ros2_humble/install/ros2cli:/home/adamn/ros2_humble/install/quality_of_service_demo_py:/home/adamn/ros2_humble/install/lifecycle_py:/home/adamn/ros2_humble/install/launch_testing_ros:/home/adamn/ros2_humble/install/launch_ros:/home/adamn/ros2_humble/install/examples_rclpy_pointcloud_publisher:/home/adamn/ros2_humble/install/examples_rclpy_minimal_subscriber:/home/adamn/ros2_humble/install/examples_rclpy_minimal_service:/home/adamn/ros2_humble/install/examples_rclpy_minimal_publisher:/home/adamn/ros2_humble/install/examples_rclpy_minimal_client:/home/adamn/ros2_humble/install/examples_rclpy_minimal_action_server:/home/adamn/ros2_humble/install/examples_rclpy_minimal_action_client:/home/adamn/ros2_humble/install/examples_rclpy_guard_conditions:/home/adamn/ros2_humble/install/examples_rclpy_executors:/home/adamn/ros2_humble/install/demo_nodes_py:/home/adamn/ros2_humble/install/action_tutorials_py:/home/adamn/ros2_humble/install/ament_uncrustify:/home/adamn/ros2_humble/install/tracetools_trace:/home/adamn/ros2_humble/install/tracetools_read:/home/adamn/ros2_humble/install/test_tracetools_launch:/home/adamn/ros2_humble/install/test_launch_ros:/home/adamn/ros2_humble/install/sensor_msgs_py:/home/adamn/ros2_humble/install/rpyutils:/home/adamn/ros2_humble/install/rosidl_runtime_py:/home/adamn/ros2_humble/install/rosidl_cli:/home/adamn/ros2_humble/install/launch_pytest:/home/adamn/ros2_humble/install/launch_testing:/home/adamn/ros2_humble/install/launch_yaml:/home/adamn/ros2_humble/install/launch_xml:/home/adamn/ros2_humble/install/launch:/home/adamn/ros2_humble/install/osrf_pycommon:/home/adamn/ros2_humble/install/launch_testing_examples:/home/adamn/ros2_humble/install/domain_coordinator:/home/adamn/ros2_humble/install/ament_xmllint:/home/adamn/ros2_humble/install/ament_pyflakes:/home/adamn/ros2_humble/install/ament_pycodestyle:/home/adamn/ros2_humble/install/ament_pep257:/home/adamn/ros2_humble/install/ament_pclint:/home/adamn/ros2_humble/install/ament_package:/home/adamn/ros2_humble/install/ament_mypy:/home/adamn/ros2_humble/install/ament_lint_cmake:/home/adamn/ros2_humble/install/ament_flake8:/home/adamn/ros2_humble/install/ament_copyright:/home/adamn/ros2_humble/install/ament_lint:/home/adamn/ros2_humble/install/ament_index_python:/home/adamn/ros2_humble/install/ament_cpplint:/home/adamn/ros2_humble/install/ament_cppcheck:/home/adamn/ros2_humble/install/ament_clang_tidy:/home/adamn/ros2_humble/install/ament_clang_format /usr/bin/cmake --install /home/adamn/Hackathon/ROSandFlask/ros2_ws/build/turtlesim

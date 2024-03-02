@@ -1,0 +1,49 @@
+{
+  "package_name": "turtlesim",
+  "output_dir": "/home/adamn/Hackathon/ROSandFlask/ros2_ws/build/turtlesim/rosidl_typesupport_fastrtps_c/turtlesim",
+  "template_dir": "/home/adamn/ros2_humble/install/rosidl_typesupport_fastrtps_c/share/rosidl_typesupport_fastrtps_c/resource",
+  "idl_tuples": [
+    "/home/adamn/Hackathon/ROSandFlask/ros2_ws/build/turtlesim/rosidl_adapter/turtlesim:action/RotateAbsolute.idl",
+    "/home/adamn/Hackathon/ROSandFlask/ros2_ws/build/turtlesim/rosidl_adapter/turtlesim:msg/Color.idl",
+    "/home/adamn/Hackathon/ROSandFlask/ros2_ws/build/turtlesim/rosidl_adapter/turtlesim:msg/Pose.idl",
+    "/home/adamn/Hackathon/ROSandFlask/ros2_ws/build/turtlesim/rosidl_adapter/turtlesim:srv/Kill.idl",
+    "/home/adamn/Hackathon/ROSandFlask/ros2_ws/build/turtlesim/rosidl_adapter/turtlesim:srv/SetPen.idl",
+    "/home/adamn/Hackathon/ROSandFlask/ros2_ws/build/turtlesim/rosidl_adapter/turtlesim:srv/Spawn.idl",
+    "/home/adamn/Hackathon/ROSandFlask/ros2_ws/build/turtlesim/rosidl_adapter/turtlesim:srv/TeleportAbsolute.idl",
+    "/home/adamn/Hackathon/ROSandFlask/ros2_ws/build/turtlesim/rosidl_adapter/turtlesim:srv/TeleportRelative.idl"
+  ],
+  "ros_interface_dependencies": [
+    "action_msgs:/home/adamn/ros2_humble/install/action_msgs/share/action_msgs/msg/GoalInfo.idl",
+    "action_msgs:/home/adamn/ros2_humble/install/action_msgs/share/action_msgs/msg/GoalStatus.idl",
+    "action_msgs:/home/adamn/ros2_humble/install/action_msgs/share/action_msgs/msg/GoalStatusArray.idl",
+    "action_msgs:/home/adamn/ros2_humble/install/action_msgs/share/action_msgs/srv/CancelGoal.idl",
+    "builtin_interfaces:/home/adamn/ros2_humble/install/builtin_interfaces/share/builtin_interfaces/msg/Duration.idl",
+    "builtin_interfaces:/home/adamn/ros2_humble/install/builtin_interfaces/share/builtin_interfaces/msg/Time.idl",
+    "unique_identifier_msgs:/home/adamn/ros2_humble/install/unique_identifier_msgs/share/unique_identifier_msgs/msg/UUID.idl"
+  ],
+  "target_dependencies": [
+    "/home/adamn/ros2_humble/install/rosidl_typesupport_fastrtps_c/lib/rosidl_typesupport_fastrtps_c/rosidl_typesupport_fastrtps_c",
+    "/home/adamn/ros2_humble/install/rosidl_typesupport_fastrtps_c/local/lib/python3.10/dist-packages/rosidl_typesupport_fastrtps_c/__init__.py",
+    "/home/adamn/ros2_humble/install/rosidl_typesupport_fastrtps_c/share/rosidl_typesupport_fastrtps_c/resource/idl__rosidl_typesupport_fastrtps_c.h.em",
+    "/home/adamn/ros2_humble/install/rosidl_typesupport_fastrtps_c/share/rosidl_typesupport_fastrtps_c/resource/idl__type_support_c.cpp.em",
+    "/home/adamn/ros2_humble/install/rosidl_typesupport_fastrtps_c/share/rosidl_typesupport_fastrtps_c/resource/msg__rosidl_typesupport_fastrtps_c.h.em",
+    "/home/adamn/ros2_humble/install/rosidl_typesupport_fastrtps_c/share/rosidl_typesupport_fastrtps_c/resource/msg__type_support_c.cpp.em",
+    "/home/adamn/ros2_humble/install/rosidl_typesupport_fastrtps_c/share/rosidl_typesupport_fastrtps_c/resource/srv__rosidl_typesupport_fastrtps_c.h.em",
+    "/home/adamn/ros2_humble/install/rosidl_typesupport_fastrtps_c/share/rosidl_typesupport_fastrtps_c/resource/srv__type_support_c.cpp.em",
+    "/home/adamn/Hackathon/ROSandFlask/ros2_ws/build/turtlesim/rosidl_adapter/turtlesim/action/RotateAbsolute.idl",
+    "/home/adamn/Hackathon/ROSandFlask/ros2_ws/build/turtlesim/rosidl_adapter/turtlesim/msg/Color.idl",
+    "/home/adamn/Hackathon/ROSandFlask/ros2_ws/build/turtlesim/rosidl_adapter/turtlesim/msg/Pose.idl",
+    "/home/adamn/Hackathon/ROSandFlask/ros2_ws/build/turtlesim/rosidl_adapter/turtlesim/srv/Kill.idl",
+    "/home/adamn/Hackathon/ROSandFlask/ros2_ws/build/turtlesim/rosidl_adapter/turtlesim/srv/SetPen.idl",
+    "/home/adamn/Hackathon/ROSandFlask/ros2_ws/build/turtlesim/rosidl_adapter/turtlesim/srv/Spawn.idl",
+    "/home/adamn/Hackathon/ROSandFlask/ros2_ws/build/turtlesim/rosidl_adapter/turtlesim/srv/TeleportAbsolute.idl",
+    "/home/adamn/Hackathon/ROSandFlask/ros2_ws/build/turtlesim/rosidl_adapter/turtlesim/srv/TeleportRelative.idl",
+    "/home/adamn/ros2_humble/install/action_msgs/share/action_msgs/msg/GoalInfo.idl",
+    "/home/adamn/ros2_humble/install/action_msgs/share/action_msgs/msg/GoalStatus.idl",
+    "/home/adamn/ros2_humble/install/action_msgs/share/action_msgs/msg/GoalStatusArray.idl",
+    "/home/adamn/ros2_humble/install/action_msgs/share/action_msgs/srv/CancelGoal.idl",
+    "/home/adamn/ros2_humble/install/builtin_interfaces/share/builtin_interfaces/msg/Duration.idl",
+    "/home/adamn/ros2_humble/install/builtin_interfaces/share/builtin_interfaces/msg/Time.idl",
+    "/home/adamn/ros2_humble/install/unique_identifier_msgs/share/unique_identifier_msgs/msg/UUID.idl"
+  ]
+}
