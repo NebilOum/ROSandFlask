@@ -1,5 +1,6 @@
-from flask import FLask, render_template, request, jsonify, Response
-import numppy as np
+import flask
+from flask import Flask, render_template, request, jsonify, Response
+import numpy as np
 import mediapipe as mp
 import cv2 as cv
 import matplotlib.pyplot as pyplot
